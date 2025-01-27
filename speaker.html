@@ -375,27 +375,48 @@
     <div class="row">
         <div class="col-md-12 hidden-xs hidden-sm">
             <div class="text-center">
-                <small>© 2024 Digital Trust Centre, Nanyang Technological University. All Rights Reserved.</small>
+                <small>© 2025 Digital Trust Centre, Nanyang Technological University. All Rights Reserved.</small>
 
             </div>
         </div>
         <div class="col-sm-12 visible-xs-block visible-sm-block">
             <div class="text-center">
-                <small>© 2024 Digital Trust Centre, Nanyang Technological University. All Rights Reserved.</small>
+                <small>© 2025 Digital Trust Centre, Nanyang Technological University. All Rights Reserved.</small>
             </div>
         </div>
     </div>
 </footer>
 <!-- end footer -->
 
-
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- jQuery -->
-<script src="./misc/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <!-- Bootstrap JavaScript -->
-<script src="./misc/bootstrap.min.js"></script>
+<!--     <script src="./misc/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        direction: "horizontal",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // mousewheel: true,
+        autoplay: {
+            delay: 5000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 </body></html>
-
