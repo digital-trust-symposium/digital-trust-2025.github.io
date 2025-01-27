@@ -8,7 +8,7 @@
     <title>Symposium on Digital Trust</title>
 
     <!-- Bootstrap CSS -->
-    <!--     <link rel="stylesheet" href="./misc/bootstrap.min.css"> -->
+<!--         <link rel="stylesheet" href="./misc/bootstrap.min.css">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -64,11 +64,11 @@
     <!--        <div id="singaporeslide" class="carousel slide" data-ride="carousel">-->
     <!--            &lt;!&ndash; Indicators &ndash;&gt;-->
     <!--            <ol class="carousel-indicators">-->
-    <!--                <li data-target="#singaporeslide" data-slide-to="0" class="active"></li>-->
-    <!--                <li data-target="#singaporeslide" data-slide-to="1"></li>-->
-    <!--                <li data-target="#singaporeslide" data-slide-to="2"></li>-->
-    <!--                <li data-target="#singaporeslide" data-slide-to="3"></li>-->
-    <!--                <li data-target="#singaporeslide" data-slide-to="4"></li>-->
+    <!--                <li data-bs-parent="#singaporeslide" data-slide-to="0" class="active"></li>-->
+    <!--                <li data-bs-parent="#singaporeslide" data-slide-to="1"></li>-->
+    <!--                <li data-bs-parent="#singaporeslide" data-slide-to="2"></li>-->
+    <!--                <li data-bs-parent="#singaporeslide" data-slide-to="3"></li>-->
+    <!--                <li data-bs-parent="#singaporeslide" data-slide-to="4"></li>-->
     <!--            </ol>-->
     <!--            <div class="carousel-inner" role="listbox">-->
     <!--                <div class="item active">-->
@@ -153,201 +153,310 @@
         </div>
     </nav>
 
-       <!-- content part -->
+    <!-- content part -->
     <article class="container well">
         <div class="row">
             <section class="col-sm-11">
                 <div class="container">
                     <div class="row" style="margin-bottom: 20px;">
-                        <h4 align="justify">We have a great program lined up for 2024. Let's welcome the following leading experts on digital trust. </h4>
+                        <h4 align="justify">We have a great program lined up for 2025. Let's welcome the following leading experts on digital trust. </h4>
                     </div>
                     <div class="media-list">
 
-			      <!-- Moti Yung  -->
+                        <!-- Elisa Bertino  -->
+
+                        <div class="media">
+                            <a class="pull-left" href="https://www.cs.purdue.edu/people/faculty/bertino.html">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="https://www.cs.purdue.edu/people/images-landscape/faculty/bertino.jpg" alt="prof">
+                            </a>
+                            <div class="media-body">
+                                <p></p><h4 class="media-heading"><strong>Prof Elisa Bertino</strong></h4><p></p>
+                                <p>Professor at Purdue University, USA</p>
+                                <p>Website:<a href="https://www.cs.purdue.edu/people/faculty/bertino.html">https://www.cs.purdue.edu/people/faculty/bertino.html</a></p>
+                            </div>
+                        </div>
+                        The Persistent Problem of Data Insecurity
+                        <div id="accordion0">
+<!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs0" aria-expanded="false" aria-controls="abs0">
+                                Abstract
+                            </button>
+                            <div id="abs0" class="collapse" aria-labelledby="abs0" data-bs-parent="#accordion0">
+                                <div class="card-body">
+                                    Data is today even more critical than ever as not only supports operational functions of organizations, but it is a gold mine for strategic decisions and predictions, via the use of advanced machine learning techniques. Data is thus today immensely valuable. However, despite more than 40 years of research on data security and privacy, data breaches keep increasing. Malicious actors use sophisticated attack strategies, based on multiple steps and tools, such as infostealers and Trojan, and on detailed intelligence about organizations applications, key individuals, and defenses. Recent attacks show that now attackers target software supply chains so to easily gain access to large numbers of organizations.  It is important to mention that current database technology, e.g. relational database management systems (DBMSs), provides excellent data protection techniques for data stored in databases, including fine-grained content and context-based access control, protections from database administrators, full database encryption, and always-encrypted database, also leveraging hardware and software secure enclaves. And yet, we will see a lot of data breaches. One reason for this situation is that, even if the data is well protected by the DBMS, once the data leaves the database to be handed to applications, which are often not secure, it is not any longer protected. An example of such insecure applications is represented by the ones prone to SQL injection.  One would have expected that applications would today be free of such a long-known vulnerability. However, the number of SQL vulnerabilities accepted as common vulnerabilities and exposures remains high even in recent years. In the talk, after discussing relevant examples of data breaches to show some of the tactics, techniques, and procedures (TTPs) used by malicious actors to steal data, I will discuss the problem of insecure database applications and approaches to enhance their security. Then I will provide my own broader perspective on challenges and approaches to comprehensive data security, including the role of recent artificial intelligence techniques.
+                                </div>
+                            </div>
+
+<!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio0" aria-expanded="false" aria-controls="bio0">
+                                Bio
+                            </button>
+
+                            <div id="bio0" class="collapse" aria-labelledby="bio0" data-bs-parent="#accordion0">
+                                <div class="card-body">
+                                    Elisa Bertino is a Samuel Conte Distinguished Professor of Computer Science at Purdue University. Prior to joining Purdue, she was a professor and department head at the Department of Computer Science and Communication of the University of Milan. She has been a visiting researcher at the IBM Research Laboratory in San Jose (now Almaden) and at Rutgers University. She has held visiting professor positions at the Singapore National University and the Singapore Management University.  Her recent research focuses on security and privacy of cellular networks and IoT systems, and on edge analytics for security.  Elisa Bertino is a Fellow member of IEEE, ACM, and AAAS. She received the 2002 IEEE Computer Society Technical Achievement Award for “For outstanding contributions to database systems and database security and advanced data management systems”, the 2005 IEEE Computer Society Tsutomu Kanai Award for “Pioneering and innovative research contributions to secure distributed systems”, the 2019-2020 ACM Athena Lecturer Award, and the 2021 IEEE 2021 Innovation in Societal Infrastructure Award. She is currently serving as ACM vice-president.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Moti Yung  -->
 
                         <div class="media">
                             <a class="pull-left" href="https://research.google/people/moti-yung/">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/moti.jpg" alt="lecturer">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/moti.jpg" alt="prof">
                             </a>
                             <div class="media-body">
                                 <p></p><h4 class="media-heading"><strong>Moti Yung</strong></h4><p></p>
-                                    <p>Distinguished Scientist</p>
-				    <p>Google, USA</p>
-                                    <p>Adjunct Senior Research Faculty</p>
-				    <p>Columbia University, USA</p>
+                                <p>Professor at Columbia University</p>
                                 <p>Website:<a href="https://research.google/people/moti-yung/">https://research.google/people/moti-yung/</a></p>
                             </div>
                         </div>
-                         <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio0" role="button" aria-expanded="false" aria-controls="bio0">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio0">
-                          <div class="card card-body">
-                            <p align="justify" style="width: 95%;"> Moti Yung is a Distinguished Scientist with Google and an adjunct senior research faculty at Columbia University. He got his PhD from Columbia University in 1988. Previously, he was with IBM Research, Certco, RSA Laboratories, and Snap. Yung is a fellow of the IEEE, the ACM, the International Association for Cryptologic Research (IACR), and the European Association for Theoretical Computer Science (EATCS). Among his awards is the  IEEE-CS W. Wallace McDowell Award and the IEEE-CS Computer Pioneer Award. Yung is a member of the American Academy of Arts and Sciences.
-</p>
+                        Touching Points of AI and Cryptography
+                        <div id="accordion1">
+                            <!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs1" aria-expanded="false" aria-controls="abs1">
+                                Abstract
+                            </button>
+                            <div id="abs1" class="collapse" aria-labelledby="abs1" data-bs-parent="#accordion1">
+                                <div class="card-body">
+                                    AI is becoming (again) a central theme in computing and obviously there are also security and privacy issues in AI deployment (like any other new computing technology). The nature of AI is that it moves fast and changes the computing landscape in major ways, and industry is committed to using it in the future. Certainly AI is in a need of having security to assure its success and have cryptography be part of it. Further, besides technological deployment, AI possesses some fundamental modeling questions and its understanding, at times, is a challenge as well.
+                                    In this survey talk I will cover some points where AI and Cryptography touch, in practice and in theoretical works, and I will cover some issues on how the areas influence each other, and what are the issues where they can help or hurt each other.
+                                </div>
+                            </div>
 
-                          </div>
-                        </div>
+                            <!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio1" aria-expanded="false" aria-controls="bio1">
+                                Bio
+                            </button>
 
-			      <!-- Xiaohua Jia  -->
-
-                        <div class="media">
-                            <a class="pull-left" href="https://www.cs.cityu.edu.hk/~jia/">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/xiaohua-jia.jpeg" alt="lecturer">
-                            </a>
-                            <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Xiaohua Jia</strong></h4><p></p>
-                                    <p>Chair Professor, Head of Department</p>
-				    <p>Department of Computer Science</p>
-                                    <p>City University of Hong Kong, Hong Kong, China</p>
-                                <p>Website:<a href="https://www.cs.cityu.edu.hk/~jia/"> https://www.cs.cityu.edu.hk/~jia/</a></p>
+                            <div id="bio1" class="collapse" aria-labelledby="bio1" data-bs-parent="#accordion1">
+                                <div class="card-body">
+                                    Dr. Moti Yung is a Distinguished Research Scientist with Google and an adjunct senior research faculty at Columbia University. He got his PhD from Columbia University in 1988. Previously, he was with IBM Research, Certco, RSA Laboratories, and Snap. Yung is a fellow of the IEEE, the ACM, the International Association for Cryptologic Research (IACR), and the European Association for Theoretical Computer Science (EATCS). Among his awards is the  IEEE-CS W. Wallace McDowell Award and the IEEE-CS Computer Pioneer Award, the ACM SIGSAC outstanding innovation award, as well as a number of test-of-time awards and industry awards. Yung is a member of the American Academy of Arts and Sciences.
+                                </div>
                             </div>
                         </div>
-                         <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio2" role="button" aria-expanded="false" aria-controls="bio2">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio2">
-                          <div class="card card-body">
-                            <p align="justify" style="width: 95%;"> Xiaohua Jia received his BSc (1984) and MEng (1987) from University of Science and Technology of China, and DSc (1991) in Information Science from University of Tokyo. He is currently the Chair Professor and Head of Dept of Computer Science, City University of Hong Kong. His research interests include cloud computing and distributed systems, data security and privacy, computer networks and mobile computing. Prof. Jia is an editor of IEEE Trans. on Computers (2021 – present), IEEE Internet of Things (2013 – 2018), IEEE Trans. on Parallel and Distributed Systems (2006 - 2009), Journal of World Wide Web, etc. He is the Chair of ACM MobiHoc 2008, TPC Co-Chair of IEEE GlobeCom 2010 – Ad Hoc and Sensor Networking Symp, Area-Chair of IEEE INFOCOM 2015-2017, Chair of ACM ICN 2019, and Chair of IEEE ICDCS 2023. He is a Fellow of IEEE (Computer Society) and Distinguished Member of ACM.
-</p>
 
-                          </div>
-                        </div>
-			    
-                        <!-- Adrian Perrig  -->
+                        <!-- N. Asokan  -->
 
                         <div class="media">
-                            <a class="pull-left" href="https://inf.ethz.ch/people/person-detail.perrig.html">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/perrig_adrian.jpeg" alt="lecturer">
+                            <a class="pull-left" href="https://cs.uwaterloo.ca/about/people/nasokan">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/asokan.jpg" alt="prof">
                             </a>
                             <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Adrian Perrig</strong></h4><p></p>
-                                    <p>Professor, Department of Computer Science</p>
-                                    <p>ETH Zürich, Switzerland</p>
-                                <p>Website:<a href="https://inf.ethz.ch/people/person-detail.perrig.html"> https://inf.ethz.ch/people/person-detail.perrig.html</a></p>
+                                <p></p><h4 class="media-heading"><strong>Prof N. Asokan</strong></h4><p></p>
+                                <p>Professor at University of Waterloo</p>
+                                <p>Website:<a href="https://cs.uwaterloo.ca/about/people/nasokan"> https://cs.uwaterloo.ca/about/people/nasokan</a></p>
                             </div>
                         </div>
-                         <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio1" role="button" aria-expanded="false" aria-controls="bio1">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio1">
-                          <div class="card card-body">
-                            <p align="justify" style="width: 95%;">Adrian Perrig is a Professor at the Department of Computer Science at
-ETH Zürich, Switzerland, where he leads the network security group. He
-is also a Distinguished Fellow at CyLab, and an Adjunct Professor of
-Electrical and Computer Engineering at Carnegie Mellon University.
-From 2002 to 2012, he was a Professor of Electrical and Computer
-Engineering, Engineering and Public Policy, and Computer Science
-(courtesy) at Carnegie Mellon University. From 2007 to 2012, he served
-as the technical director for Carnegie Mellon's Cybersecurity
-Laboratory (CyLab). He earned his MS and PhD degrees in Computer
-Science from Carnegie Mellon University, and spent three years during
-his PhD at the University of California at Berkeley. He received his
-BSc degree in Computer Engineering from EPFL. He is a recipient of the
-ACM SIGSAC Outstanding Innovation Award. Adrian is an ACM and IEEE
-Fellow. Adrian's research revolves around building secure systems --
-in particular his group is working on the SCION secure Internet
-architecture.
-</p>
+                        Meta concerns in ML security/privacy
+                        <div id="accordion2">
+                            <!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs2" aria-expanded="false" aria-controls="abs2">
+                                Abstract
+                            </button>
+                            <div id="abs2" class="collapse" aria-labelledby="abs2" data-bs-parent="#accordion2">
+                                <div class="card-body">
+                                    The success of deep learning in many application domains has been nothing short of dramatic. This has brought the spotlight onto security and privacy concerns with machine learning (ML), generating tremendous interest among researchers. In this talk, I will discuss two meta issues ML security and privacy that merits greater attention from the research community. The first is the question of whether we are using the right adversary models. As a case study, I will use model ownership resolution (MOR) schemes that are intended to deter "model theft." The second is the issue of conflicts that arise when protection mechanisms for multiple different threats need to be applied simultaneously to a given ML model.
+                                </div>
+                            </div>
 
+                            <!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio2" aria-expanded="false" aria-controls="bio2">
+                                Bio
+                            </button>
 
-     </div>
+                            <div id="bio2" class="collapse" aria-labelledby="bio2" data-bs-parent="#accordion2">
+                                <div class="card-body">
+                                    N. Asokan is a professor of computer science and a David R. Cheriton Chair at the University of Waterloo where he also serves as the executive directory of the Cybersecurity and Privacy Institute (https://cpi.uwaterloo.ca). His research focuses on systems security. Asokan is a Fellow of the ACM, the IEEE, and the Royal Society of Canada. More information about his work is on his website at https://asokan.org/asokan/ or via Bluesky and X/Twitter @nasokan
+                                </div>
+                            </div>
                         </div>
 
+                        <!-- Prof Surya Nepal  -->
 
-  
-
- <!--Zhiqiang Lin-->
                         <div class="media">
-                            <a class="pull-left" href="https://web.cse.ohio-state.edu/~lin.3021/">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/zhiqiang_lin.png" alt="lecturer">
+                            <a class="pull-left" href="https://people.csiro.au/N/S/Surya-Nepa">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/nepal.jpg" alt="prof">
                             </a>
                             <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Zhiqiang Lin</strong></h4><p></p>
-                                    <p>Distinguished Professor of Engineering, Department of Computer Science and Engineering</p>
-                                    <p>Director of Institute for Cybersecurity and Digital Trust </p>
-                                    <p>The Ohio State University, USA</p>
-                                   
-                                <p>Website: <a href="https://web.cse.ohio-state.edu/~lin.3021/">https://web.cse.ohio-state.edu/~lin.3021/</a></p>
+                                <p></p><h4 class="media-heading"><strong>Prof Surya Nepal</strong></h4><p></p>
+                                <p>Senior Principal Research Scientist at CSIRO’s Data61</p>
+                                <p>Website:<a href="https://people.csiro.au/N/S/Surya-Nepal"> https://people.csiro.au/N/S/Surya-Nepal</a></p>
                             </div>
                         </div>
-                        <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio5" role="button" aria-expanded="false" aria-controls="bio5">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio5">
-                          <div class="card card-body">
-                          <p align="justify" style="width: 95%;">Zhiqiang Lin is a Distinguished Professor of Engineering and the Director of the Institute for Cybersecurity and Digital Trust at The Ohio State University. His research focuses on systems and software security, with an emphasis on developing automated analysis for vulnerability detection, enhancing system security through techniques like binary code rewriting and trusted execution environments, and applying these in areas like mobile technology and IoTs. He is an IEEE Fellow and ACM Distinguished Member, and has received numerous awards, including the NSF CAREER award and Outstanding Faculty Teaching Award. He earned his Ph.D. from Purdue University.
-</p>
-                          </div>
+                        Building Trust in AI: A Journey from True Trustworthiness to Perceived
+                        <div id="accordion3">
+                            <!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs3" aria-expanded="false" aria-controls="abs3">
+                                Abstract
+                            </button>
+                            <div id="abs3" class="collapse" aria-labelledby="abs3" data-bs-parent="#accordion3">
+                                <div class="card-body">
+                                    We are currently experiencing a significant and widespread digital transformation across all sectors of our economy. This transformation is driven by the rapid emergence and adoption of critical technologies, particularly Artificial Intelligence (AI) and Machine Learning (ML). Research has shown that AI and ML systems can be vulnerable to various attacks, which raises significant concerns when these systems are used in critical services and infrastructures, posing threats to the national economy.
+                                    It is essential to develop AI and ML systems that can be trusted. Trustworthiness has two dimensions: true trustworthiness, which reflects a system's reliability, and perceived trustworthiness, which indicates how reliable a system appears to users. This presentation will explore the journey from true to perceived trustworthiness of AI and ML systems, highlighting the research challenges and initiatives undertaken at CSIRO’s Data61.
+                                </div>
+                            </div>
+
+                            <!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio3" aria-expanded="false" aria-controls="bio3">
+                                Bio
+                            </button>
+
+                            <div id="bio3" class="collapse" aria-labelledby="bio3" data-bs-parent="#accordion3">
+                                <div class="card-body">
+                                    Dr Surya Nepal is a senior principal research scientist at CSIRO’s Data61. He has been with CSIRO since 2000 and currently leads the cybersecurity and quantum systems research group comprising over 100 staff and PhD students. His primary area of research focuses on developing and implementing technologies in distributed systems, with a specific emphasis on security, privacy, and trust. Dr. Nepal has over 250 peer-reviewed publications to his credit. He currently serves as the interim editor-in-chief of IEEE Transactions on Service Computing and is a member of the ACM Transactions on Internet Technology editorial board. Additionally, Dr. Nepal is a conjoint professor at UNSW. He is a Fellow of IEEE.
+                                </div>
+                            </div>
                         </div>
 
 
-                        <!--Yang Zhang-->
+                        <!--A/Prof Guangdong Bai-->
                         <div class="media">
-                            <a class="pull-left" href="https://yangzhangalmo.github.io/">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/yang_zhang.png" alt="lecturer">
+                            <a class="pull-left" href="https://about.uq.edu.au/experts/24584">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/guangdong.jpg" alt="a/prof">
                             </a>
                             <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Yang Zhang</strong></h4><p></p>
-                                    <p>Professor, CISPA Helmholtz Center for Information Security, Germany</p>
-                                   
-                                <p>Website: <a href="https://yangzhangalmo.github.io/">https://yangzhangalmo.github.io/</a></p>
+                                <p></p><h4 class="media-heading"><strong>A/Prof Guangdong Bai</strong></h4><p></p>
+                                <p>Associate Professor at The University of Queensland</p>
+
+                                <p>Website: <a href="https://about.uq.edu.au/experts/24584">https://about.uq.edu.au/experts/24584/</a></p>
                             </div>
                         </div>
-                        <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio6" role="button" aria-expanded="false" aria-controls="bio6">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio6">
-                          <div class="card card-body">
-                          <p align="justify" style="width: 95%;">Yang Zhang is a tenured faculty (equivalent to full professor) at CISPA Helmholtz Center for Information Security, Germany. His research concentrates on trustworthy machine learning. Moreover, he works on measuring and understanding misinformation and unsafe content like hateful memes on the Internet. Over the years, he has published multiple papers at top venues in information security, including CCS, NDSS, Oakland, and USENIX Security. His work has received the NDSS 2019 distinguished paper award and the CCS 2022 best paper award runner-up.</p>
-                          </div>
+                        Safeguarding Privacy, Robustness and Intellectual Property of Machine Learning
+                        <div id="accordion4">
+                            <!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs4" aria-expanded="false" aria-controls="abs4">
+                                Abstract
+                            </button>
+                            <div id="abs4" class="collapse" aria-labelledby="abs4" data-bs-parent="#accordion4">
+                                <div class="card-body">
+                                    The growing complexity of deep neural network models in modern application domains (e.g., vision and language) necessitates a complex training process that involves extensive data, sophisticated design, and substantial computation. These inherently encapsulate the intellectual property (IP) of data and model owners, highlighting the urgent need to protect privacy, ensure model robustness, and safeguard proprietary rights of model owners during development, deployment, and post-deployment stages. In this talk, we will present our recent research surrounding holistic strategies for privacy preservation, model robustness verification, and model usage control, addressing challenges across the entire model lifecycle. Our approaches aim to advance responsible AI practice by ensuring secure and ethical utilization of AI systems.
+                                </div>
+                            </div>
+
+                            <!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio4" aria-expanded="false" aria-controls="bio4">
+                                Bio
+                            </button>
+
+                            <div id="bio4" class="collapse" aria-labelledby="bio4" data-bs-parent="#accordion4">
+                                <div class="card-body">
+                                    Guangdong Bai is an Associate Professor in the School of Electrical Engineering and Computer Science at the University of Queensland, Australia. His research spans responsible machine learning, security, and privacy. He is an Associate Editor of IEEE Transactions on Dependable and Secure Computing.
+                                </div>
+                            </div>
                         </div>
 
-<!--Jason Xue-->
+
+                        <!--Joseph Liu-->
                         <div class="media">
-                            <a class="pull-left" href="https://people.csiro.au/x/j/jason-xue">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/jason_xue.png" alt="lecturer">
+                            <a class="pull-left" href="https://research.monash.edu/en/persons/joseph-liu">
+                                <img class="media-object img-thumbnail img-responsive m-portrait" src="https://research.monash.edu/files-asset/332570877/joseph03.jpg?w=320&f=webp" alt="prof">
                             </a>
                             <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Jason Xue</strong></h4><p></p>
-                                    <p>Senior Research Scientist, CSIRO's Data61, Australia</p>
-                                    <p>Lead of AI Security Sub-team</p>
-                                   
-                                <p>Website: <a href="https://people.csiro.au/x/j/jason-xue">https://people.csiro.au/x/j/jason-xue</a></p>
+                                <p></p><h4 class="media-heading"><strong>Prof Joseph Liu</strong></h4><p></p>
+                                <p>Professor at Monash University</p>
+
+                                <p>Website: <a href="https://research.monash.edu/en/persons/joseph-liu">https://research.monash.edu/en/persons/joseph-liu</a></p>
                             </div>
                         </div>
-                        <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio7" role="button" aria-expanded="false" aria-controls="bio7">Bio</a>
-                        </p>
-                        <div class="collapse multi-collapse" id="bio7">
-                          <div class="card card-body">
-                          <p align="justify" style="width: 95%;">Jason Xue is a Senior Research Scientist (team leader of AI Security) at CSIRO's Data61, Australia. His current research interests are AI security and privacy, system and software security, and Internet measurement. He is the recipient of the ACM SIGSAC Best Paper Award Runner-Up (CCS 2021), two ACM SIGSOFT distinguished paper awards (ASE 2018 and FSE 2023), ACM SIGSOFT distinguished reviewer award (FSE 2023), and his work has been featured in the mainstream press, including The New York Times, Science Daily, PR Newswire, Yahoo, The Australian Financial Review, and The Courier. He currently serves on the Program Committees of ACM CCS 2023, USENIX Security 2024, NDSS 2024, ACM/IEEE ICSE 2023, and ACM/IEEE FSE 2023 as well as an area chair of WWW 2024. </p>
-                          </div>
-                        </div>
+                        Blockchain for Trust and Transparency: Transforming Agriculture and Education
+                        <div id="accordion5">
+                            <!--                            Abstract-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs5" aria-expanded="false" aria-controls="abs5">
+                                Abstract
+                            </button>
+                            <div id="abs5" class="collapse" aria-labelledby="abs5" data-bs-parent="#accordion5">
+                                <div class="card-body">
+                                    Blockchain technology is redefining the foundations of trust and transparency across diverse sectors, including agriculture and education. In this talk, I will explore how blockchain solutions are addressing critical challenges in these fields, fostering integrity, efficiency, and accountability. Drawing from key Australian Government initiatives, this talk will delve into three transformative projects: (1) Agriculture Supply Chain: Leveraging blockchain to enhance traceability and authenticity in agricultural supply chains, ensuring product integrity from farm to table.
+                                    (2) Greenhouse Gas Monitoring: Employing blockchain to track and verify agricultural greenhouse gas emissions, supporting sustainability and compliance with environmental standards.(3) Education Credentials: Implementing blockchain to authenticate academic records and prevent credential fraud, safeguarding the value of education and empowering institutions globally.
+                                    By sharing insights from real-world deployments, this talk aims to inspire further innovation and collaboration, showcasing blockchain’s pivotal role in shaping trustworthy digital ecosystems for the future.
+                                </div>
+                            </div>
 
+                            <!--                            Bio-->
+                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio5" aria-expanded="false" aria-controls="bio5">
+                                Bio
+                            </button>
 
-<!--Xingliang Yuan-->
-                        <div class="media">
-                            <a class="pull-left" href="https://xyuancs.github.io">
-                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/xingliang_yuan.jpg" alt="lecturer">
-                            </a>
-                            <div class="media-body">
-                                <p></p><h4 class="media-heading"><strong>Xingliang Yuan</strong></h4><p></p>
-                                    <p>Senior Lecturer, Department of Software Systems and Cybersecurity</p>
-                                    <p>Monash University, Australia</p>
-                                   
-                                <p>Website: <a href="https://xyuancs.github.io">https://xyuancs.github.io</a></p>
+                            <div id="bio5" class="collapse" aria-labelledby="bio5" data-bs-parent="#accordion5">
+                                <div class="card-body">
+                                    Joseph Liu is a Full Professor in the Faculty of Information Technology, Monash University in Melbourne, Australia. He got his PhD from the Chinese University of Hong Kong in 2004. His research areas include cybersecurity, blockchain and applied cryptography. He has received more than 15000 citations and his H-index is 70, with more than 200 publications in top venues such as CRYPTO, ACM CCS, IEEE S&P, NDSS. He has received more than US$10M funding, and he is currently the Director of the Monash Blockchain Technology Centre. He has been given the prestigious ICT Researcher of the Year 2018 Award by the Australian Computer Society (ACS), and has won the IEEE Technical Achievement Award in 2021 given by the Technology and Engineering Management Society for his achievement in the blockchain and cybersecurity domain. He has several patents and international standards from his research contributions to be adopted by the industry.
+                                </div>
                             </div>
                         </div>
-                        <p>
-                        <a class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-toggle="collapse" href="speaker.html#bio8" role="button" aria-expanded="false" aria-controls="bio8">Bio</a> 
-                        </p>
-                        <div class="collapse multi-collapse" id="bio8">
-                          <div class="card card-body">
-                          <p align="justify" style="width: 95%;">Xingliang Yuan is a Senior Lecturer in the Faculty of Information Technology, Monash University, and also the program director for Master of Cybersecurity at Monash. His research focuses on designing secure systems to address privacy and security challenges in various contexts and applications. His research has been supported by Australian Research Council, CSIRO, Australian Department of Home Affairs, Australia Department of Health and Aged Care, and Oceania Cyber Security Centre. His work has appeared in major venues in computer security and networked systems, such as CCS, S&P, NDSS, INFOCOM, ICDCS, TDSC, TPDS, etc. He is a recipient of the Dean's Award for Excellence in Research by an Early Career Researcher (2020), and the Faculty Teaching Excellence Award (2021). He is a co-recipient of the best paper award in the European Symposium on Research in Computer Security (ESORICS) 2021. He is an editor of IEEE Transactions on Dependable and Secure Computing (TDSC), track co-chair (Security, Privacy, and Trust) of ICDCS'24, and program co-chair of SecTL'23 and NSS'22. He is a Senior Member of IEEE. </p>
-                          </div>
-                        </div>
 
+<!--                        &lt;!&ndash;  &ndash;&gt;-->
+<!--                        <div class="media">-->
+<!--                            <a class="pull-left" href="https://people.csiro.au/x/j/jason-xue">-->
+<!--                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/jason_xue.png" alt="lecturer">-->
+<!--                            </a>-->
+<!--                            <div class="media-body">-->
+<!--                                <p></p><h4 class="media-heading"><strong>Jason Xue</strong></h4><p></p>-->
+<!--                                <p>Senior Research Scientist, CSIRO's Data61, Australia</p>-->
+<!--                                <p>Lead of AI Security Sub-team</p>-->
+
+<!--                                <p>Website: <a href="https://people.csiro.au/x/j/jason-xue">https://people.csiro.au/x/j/jason-xue</a></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div id="accordion6">-->
+<!--                            &lt;!&ndash;                            Abstract&ndash;&gt;-->
+<!--                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs6" aria-expanded="false" aria-controls="abs6">-->
+<!--                                Abstract-->
+<!--                            </button>-->
+<!--                            <div id="abs6" class="collapse" aria-labelledby="abs6" data-bs-parent="#accordion6">-->
+<!--                                <div class="card-body">-->
+<!--                                    0-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash;                            Bio&ndash;&gt;-->
+<!--                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio6" aria-expanded="false" aria-controls="bio6">-->
+<!--                                Bio-->
+<!--                            </button>-->
+
+<!--                            <div id="bio6" class="collapse" aria-labelledby="bio6" data-bs-parent="#accordion6">-->
+<!--                                <div class="card-body">-->
+<!--                                    0-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+
+<!--                        &lt;!&ndash;Xingliang Yuan&ndash;&gt;-->
+<!--                        <div class="media">-->
+<!--                            <a class="pull-left" href="https://xyuancs.github.io">-->
+<!--                                <img class="media-object img-thumbnail img-responsive m-portrait" src="./misc/xingliang_yuan.jpg" alt="lecturer">-->
+<!--                            </a>-->
+<!--                            <div class="media-body">-->
+<!--                                <p></p><h4 class="media-heading"><strong>Xingliang Yuan</strong></h4><p></p>-->
+<!--                                <p>Senior Lecturer, Department of Software Systems and Cybersecurity</p>-->
+<!--                                <p>Monash University, Australia</p>-->
+
+<!--                                <p>Website: <a href="https://xyuancs.github.io">https://xyuancs.github.io</a></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div id="accordion7">-->
+<!--                            &lt;!&ndash;                            Abstract&ndash;&gt;-->
+<!--                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#abs1" aria-expanded="false" aria-controls="abs1">-->
+<!--                                Abstract-->
+<!--                            </button>-->
+<!--                            <div id="abs7" class="collapse" aria-labelledby="abs7" data-bs-parent="#accordion7">-->
+<!--                                <div class="card-body">-->
+<!--                                    0-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            &lt;!&ndash;                            Bio&ndash;&gt;-->
+<!--                            <button class="btn btn-primary" style="width: 95%; text-align: left; margin-bottom: 5px; margin-top: 10px;" data-bs-toggle="collapse" data-bs-target="#bio7" aria-expanded="false" aria-controls="bio7">-->
+<!--                                Bio-->
+<!--                            </button>-->
+
+<!--                            <div id="bio7" class="collapse" aria-labelledby="bio7" data-bs-parent="#accordion7">-->
+<!--                                <div class="card-body">-->
+<!--                                    0-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
                     </div>
                 </div>
@@ -376,6 +485,11 @@ architecture.
 
 <!-- Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--&lt;!&ndash; jQuery &ndash;&gt;-->
+<!--<script src="./misc/jquery.min.js"></script>-->
+<!--&lt;!&ndash; Bootstrap JavaScript &ndash;&gt;-->
+<!--<script src="./misc/bootstrap.min.js"></script>-->
 
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
