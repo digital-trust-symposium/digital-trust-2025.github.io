@@ -105,9 +105,20 @@ main {
 /*}*/
 /* end add on 2016-11-03 */
 
-footer {
-    color: white;
-    padding: 10px 0;
+/*.footer {*/
+/*    color: white;*/
+/*    padding: 10px 0;*/
+/*}*/
+
+.footer {
+    position:fixed;
+    bottom:0;
+    text-align: center ;
+    font-size: 16px ;
+    font-family: verdana ;
+    width: 600px ;
+    height: 50px ;
+    background-color: #f6f6f6 ;
 }
 
 .table > tbody > tr > td {
@@ -201,4 +212,20 @@ a.host:hover {
     left: 0;
     top: 0;
     position: absolute;
+}
+
+.images-container {
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display:flex;
+}
+
+.images-container img {
+    height: 80px;
+}
+
+.images-container responsive {
+    width: 100%;
+    height: auto;
 }
